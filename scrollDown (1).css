@@ -1,0 +1,91 @@
+/* ADJUST SIZE SO THAT IT FITS ALL SCREENS */
+
+/* BACKGROUND LAYOUT */
+	.rectangleBodyBackgroundLocations{
+		width: 1392px;
+		height: 280px;
+		display: inline-block;
+		background-color: lightblue;
+		border: 9px solid lightblue;
+	}
+	.rectangleBodyBackgroundRecomendations{
+		width: 1392px;
+		height: 280px;
+		display: inline-block;
+		background-color: blue;
+		border: 9px solid blue;
+	}
+
+/* POSITIONS, WHERE THINGS WILL BE PLACED */
+	/*HEADER*/
+	.header {
+  	height: 60px;
+  	background-color: white;  
+  	position: fixed;
+  	top: 0px;
+  	width: 100%;
+}
+
+.container {
+  	overflow: hidden;
+  	background-color: #EAEDF0;
+  	margin-top: 60px;
+}
+
+.sidebar {
+	width: 200px;                 
+  	height: 300px;
+  	background-color: #59ADFF;	/* Light red */
+  	float: left;
+}
+
+.content {
+  	/*height: 500px;*/
+  	background-color: #59ADFF; 
+  	float: left;
+  	margin-left: 50px;
+  	margin-bottom: 20px;
+}
+
+.footer {
+	clear: both;
+  	height: 200px;
+  	background-color: #D6E9FE;    /* Light blue */
+}
+
+#logo {
+	float: left;
+	width: 200px;
+}
+
+#searchBar {
+	float: left;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	background-color: #FAAD00;
+}
+
+#loginArea {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	padding-right: 20px;
+	float: right;
+	background-color: #59ADFF;
+}
+
+	/*BODY*/
+	
+	.explainations{
+		font-family: "Segoe UI";
+		font-size: 36px;
+		text-align: center;
+	}
+	.subHeadings{
+		font-family: "Segoe UI";
+		margin-top: 10%;
+		font-size: 30px;
+		padding-left: 220px;
+	}

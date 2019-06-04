@@ -1,0 +1,25 @@
+
+#mainArea {
+	border: 3px solid black;
+	/*background-color: yellow;*/
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	width: 40%;
+}
+
+#textArea {
+	margin-left: 5%;
+}
+
+.infoButtons {
+	color: #59ADFF;
+	width: 220px;
+	border-bottom: 1px solid black;
+}
+
+#submitButton {
+	margin-bottom: 20px;
+	background-color: #FAAD00;
+	width: 100px;
+}

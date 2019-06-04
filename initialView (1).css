@@ -1,0 +1,152 @@
+/* ADJUST SIZE SO THAT IT FITS ALL SCREENS */
+
+/*New Shit*/
+.header {
+  	height: 60px;
+  	background-color: white;  
+  	position: fixed;
+  	top: 0px;
+  	width: 100%;
+}
+
+.container {
+  	overflow: hidden;
+  	background-color: #EAEDF0;
+  	margin-top: 60px;
+}
+
+.sidebar {
+	width: 200px;                 
+  	height: 300px;
+  	background-color: #59ADFF;	/* Light red */
+  	float: left;
+}
+
+.content {
+  	/*height: 500px;*/
+  	background-color: #59ADFF; 
+  	float: left;
+  	margin-left: 50px;
+  	margin-bottom: 20px;
+}
+
+.footer {
+	clear: both;
+  	height: 200px;
+  	background-color: #D6E9FE;    /* Light blue */
+}
+
+#logo {
+	float: left;
+	width: 200px;
+}
+
+#searchBar {
+	float: left;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	background-color: #FAAD00;
+}
+
+#largeSearchBar {
+	float: left;
+	display: inline-block;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 5%;
+	margin-top: 20%;
+	background-color: #59ADFF;
+}
+
+#loginArea {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	padding-right: 20px;
+	float: right;
+	background-color: #59ADFF;
+}
+
+/* BACKGROUND LAYOUT */
+	.rectangleHeaderBackground{
+		width: screen.width;
+		height: 108px;
+		text-align: center;
+		background-color: #FFFDD0;
+		border: 9px solid #FFFDD0;
+	}
+
+	.rectangleBodyBackgroundBeginingofCurve{
+		width: screen.width;
+		height: 630px;
+		text-align: center;
+		background-color: lightblue;
+		border: 9px solid lightblue;
+	}
+	.rectangleBodyBackgroundEndofCurve{
+		width: screen.width;
+		height: 240px;
+		text-align: center;
+		background-color: blue;
+		border: 9px solid blue;
+	}
+	.rectangleBodyBackgroundFooter{
+		width: screen.width;
+		height: 104px;
+		text-align: center;
+		background-color: #FFFDD0;
+		border: 9px solid #FFFDD0;
+	}
+
+/* POSITIONS, WHERE THINGS WILL BE PLACED */
+	/*HEADER*/
+	.orangeRectangleLargeSearchBar{
+		width: 1135px;
+		height: 50px;
+		display: inline-block;
+		margin-top: 20px;
+		margin-right: 100px;
+		margin-left: 100px;
+		background-color: #FAAD00;
+		border: 9px solid #FAAD00;
+	}
+	/*BODY*/
+	.blueRectangleFilter{
+		width: 848px;
+		height: 108px;
+		display: inline-block;
+		margin-top: 292px;
+		margin-left: 150px;
+		background-color: #59ADFF;
+		border: 9px solid #59ADFF;
+	}
+	.blueRectangleSearchWhere{
+		width: 264px;
+		height: 108px;
+		display: inline-block;
+		margin-top: 292px;
+		margin-left: 50px;
+		background-color: #59ADFF;
+		border: 9px solid #59ADFF;
+	}
+	.orangeRectangleSearchButton{
+		width: 128px;
+		height: 108px;
+		display: inline-block;
+		margin-top: 292px;
+		background-color: #FAAD00;
+		border: 9px solid #FAAD00;
+	}
+	.explainations{
+		font-family: "Segoe UI";
+		font-size: 36px;
+		text-align: center;
+	}
+	.subHeadings{
+		font-family: "Segoe UI";
+		font-size: 30px;
+		padding-left: 220px;
+	}

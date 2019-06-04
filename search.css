@@ -1,0 +1,70 @@
+.header {
+  	height: 60px;
+  	background-color: white;  
+  	position: fixed;
+  	top: 0px;
+  	width: 100%;
+}
+
+.container {
+  	overflow: hidden;
+  	background-color: #EAEDF0;
+  	margin-top: 60px;
+}
+
+.sidebar {
+	width: 200px;                 
+  	height: 300px;
+  	background-color: #59ADFF;	/* Light red */
+  	float: left;
+}
+
+.content {
+  	/*height: 500px;*/
+  	background-color: #59ADFF; 
+  	float: left;
+  	margin-left: 50px;
+  	margin-bottom: 20px;
+}
+
+.footer {
+	clear: both;
+  	height: 200px;
+  	background-color: #D6E9FE;    /* Light blue */
+}
+
+#logo {
+	float: left;
+	width: 200px;
+}
+
+#searchBar {
+	float: left;
+	padding-left: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	background-color: #FAAD00;
+}
+
+#loginArea {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 15px;
+	padding-right: 20px;
+	float: right;
+	background-color: #59ADFF;
+}
+
+.restaurant_stars {
+	background-color: #FAAD00;
+	border: 2px solid black;
+}
+
+.restaurant_information {
+	border: 2px solid black;
+}
+
+.restaurant_photo {
+	border: 2px solid black;
+}
